@@ -1,0 +1,243 @@
+body{
+    box-sizing: border-box;
+   }
+   .clearflex{
+       clear: both;
+       display: table;  /*--------------------media header------------------*/
+    }  
+    
+    .heading{
+      text-align: end;
+      justify-content: end;
+      
+    }
+    header{
+        height:100%;
+        text-align: center;
+    }
+    .contact ul li{
+       list-style-type: none;
+        float: left;
+    }
+ .media ul li {
+   padding: 3px;
+    text-align: end;
+    margin: 3px;
+ }
+ header i:hover {
+cursor: pointer;
+color: yellowgreen;
+animation-duration: 3s;
+ }
+
+
+                         /*--------------------logo------------------*/
+ .logo1{
+    height: 100%;
+   
+ }
+ .logo1 img{
+   height: 80px;
+   width: 250px;
+   border-radius: 6px;
+ 
+ }
+ .logo2{
+   text-align: end;
+ }
+ .logo2 col-sm-12 col-md-12 col-12{
+   display: none;
+ }
+
+
+                                                                /*Navbar*/
+   
+  
+.carousel2{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.carousel2 h1{
+   margin:150px;
+   background-position: center;
+   position:absolute;
+   font-size: 22px;
+   background-color: rgb(8, 14, 43);
+   color: lightgrey;
+   font-family:serif;
+   border: 2px solid black;
+   border-radius: 7px;
+   animation-duration: 3s;
+   animation-delay: 0.5ms;
+}
+.carousel2 h2{
+   margin:240px;
+   background-position: center;
+   position:absolute;
+   font-size: 22px;
+   background-color: rgb(8, 14, 43);
+   color: lightgrey;
+   font-family:serif;
+   border: 2px solid black;
+   border-radius: 7px;
+   animation-duration: 3.5s;
+   animation-delay: 0.5ms;
+}
+
+.carousel2 img{
+   height: 100%;
+   background-size: cover;
+   background-color: blue;
+}
+
+.transport{
+   word-spacing: 2px;
+   font-weight: 5px;
+}
+.transport h1{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg{
+   
+   width: 100%;
+   height: 130vh;
+   background-image: url(https://img.freepik.com/premium-photo/moscow-russia-august-29-2016-traffic-car-street-moscow-city-far-international-business-russian-center_510351-11964.jpg?size=626&ext=jpg&ga=GA1.1.360902796.1699609251&semt=ais);
+   background-size:cover;
+   background-position:center;
+   overflow: hidden;
+   
+}
+.bg img{
+   overflow-y: hidden;
+   width: inherit;
+   height: inherit;
+   position: fixed;
+}
+.carousel1 img p{
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+.bgtitle{
+   text-align: center;
+  
+}
+
+
+
+section.fildetails{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   border: 1px solid black;
+}
+
+
+.card {
+   width: 400px;
+   height: 450px;
+   background-size: cover;
+}
+.card img{
+   width: auto;
+   height: auto;
+   overflow: hidden;
+}
+ .Achievementsbg{
+   width: 100%;
+   height: 100%;
+   background-image:url(bg.jpg);
+   background-size: contain;
+   background-position:center;
+   overflow: hidden;
+   background-attachment: fixed;
+   background-color: rgba(255, 0, 0, 0.5);
+
+   
+ }
+ .Achievements{
+   height: 100%;
+   width: 100%;
+  border: 2px solid;
+   background-size: cover;
+   display: sticky;
+   color: whitesmoke;
+ }
+ .process1 i{
+   height: 100px;
+   width: 100px;
+   border: 4px cornsilk;
+   border-radius: 50% gray;
+ }
+ .process1 i:hover{
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: aqua;
+    cursor: pointer;
+ }
+.Makes{
+   width: 100%;
+   height: 100vh;
+   background-size:contain;
+   
+}
+.Special summary{
+   height: 70%;
+   height: 50px;
+   background-color:whitesmoke;
+  border-radius: 6px;
+  font-family: serif;
+  font-weight: 30px;
+}
+
+
+.Makes img{
+    padding-top: 40px;
+   height: 300px;
+   border-radius: 7px;
+   background-size: cover;
+   overflow: hidden;
+}
+
+
+.Special p{
+   text-align:start;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Special details{
+padding-left: 70px;
+}
+.makesspecial{
+   width:100%;
+   height:100%;
+   overflow: hidden;
+   background-size: contain;
+}
+.testimonials{
+   height: 100%;
+   width: 100%;
+   background-size: contain;
+   text-decoration: aqua;
+   overflow: hidden;
+   text-align: center;
+}
+.footer1{
+   background-color: rgb(12, 96, 102);
+   color: white;
+   font-family: fontaswom;
+   font-weight: 30px;
+}
+.footer1 ul li{
+   list-style: none;
+}
+.react{
+   padding: 10px;
+}
+.footer1 h1{
+   font-weight:100px;
+   color: yellow;
+}
+
